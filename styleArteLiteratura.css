@@ -1,0 +1,192 @@
+body {
+  font-family: "Comic sans", cursive, sans-serif;
+  background: linear-gradient(to top, #b3d396, rgb(255, 255, 255));
+  color: black;
+  padding: 0px;
+  margin: auto;
+  border-radius: 60px;
+  box-sizing: content-box;
+}
+
+header {
+  background: #864e3f;
+  padding: 1px;
+  box-sizing: content-box;
+  box-shadow: 0 4px 8px black;
+}
+
+.menu {
+  background: #380f00;
+  padding: 1px;
+  box-sizing: content-box;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 95%;
+  box-shadow: 0 4px 8px black;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 75%;
+  margin: auto;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  border-radius: 1rem;
+  margin: auto;
+  padding: 1px;
+  box-sizing: content-box;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  font-size: larger;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #532413;
+  border-radius: 4px;
+}
+
+.titulo-arte-literatura {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: auto;
+  margin: auto auto;
+  background-color: #467428;
+  box-shadow: 0 4px 8px #213352;
+  border-radius: 45px;
+  margin: 75px auto;
+}
+
+main {
+  padding: 2rem 1rem; 
+  max-width: 1024px; 
+  margin: 0 auto;
+}
+
+.texto-inicial p {
+  font-size: 0.5rem; 
+  margin-bottom: 1rem; 
+  text-align: center;
+  margin: 45px auto;
+}
+
+.texto-inicial h3 {
+  font-size: 1.5rem;
+  font-weight: 700; 
+  color: #185c0a; 
+  margin-bottom: 1rem; 
+  text-align: center;
+}
+
+.texto-inicial p {
+  font-size: 1rem;
+  line-height: 1.625; 
+  color: #4b5563;
+  text-align: justify;
+}
+
+section {
+  background-color: white; 
+  border-radius: 1rem; 
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.05); 
+  padding: 2rem; 
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 2.25rem; 
+  font-weight: 800;
+  text-align: center; 
+  color: #13360c; 
+  margin-bottom: 1.5rem; 
+  letter-spacing: -0.025em; 
+}
+
+
+section h3 {
+  font-size: 1.875rem; 
+  font-weight: 700;
+  color: #266d18; 
+  margin-bottom: 1rem; 
+  margin-top: 2rem;
+  text-align: left; 
+}
+
+
+section p {
+  font-size: 1rem;
+  color: #4b5563; 
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+section p strong {
+  font-weight: 700;
+  color: #33a01d;
+}
+
+.conteudo-xilogravura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-xilogravura img {
+  width: 100%; 
+  max-width: 18rem; 
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -2px rgba(0, 0, 0, 0.05); 
+  margin-bottom: 1.5rem;
+  object-fit: cover;
+}
+
+section ul {
+  color: #4b5563; 
+  margin-bottom: 1rem;
+  padding-left: 1.25rem;
+  text-align: left; 
+}
+
+section ul li {
+  margin-bottom: 0.5rem;
+}
+
+section ul li strong {
+  font-weight: 700;
+  color: #33a01d; 
+}
+
+footer {
+  background-color: #864e3f;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 12px;
+  box-sizing: content-box;
+}

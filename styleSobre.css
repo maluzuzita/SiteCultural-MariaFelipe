@@ -1,0 +1,131 @@
+body {
+  font-family: "Comic sans", cursive, sans-serif;
+  background: #fff5de;
+  color: #ebdcd4;
+  padding: 0px;
+  margin: auto;
+  border-radius: 60px;
+  box-sizing: content-box;
+}
+
+header {
+  background: #864e3f;
+  padding: 1px;
+  box-sizing: content-box;
+  box-shadow: 0 4px 8px black;
+}
+
+.menu {
+  background: #380f00;
+  padding: 1px;
+  box-sizing: content-box;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 95%;
+  box-shadow: 0 4px 8px black;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 75%;
+  margin: auto;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  border-radius: 1rem;
+  margin: auto;
+  padding: 1px;
+  box-sizing: content-box;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  font-size: larger;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #532413;
+  border-radius: 4px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  height: auto;
+  margin: 75px auto;
+}
+
+.sobre-nos-content {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 2.5rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px #4a5568;
+  width: 80%;
+  margin: 45px auto;
+  transition: transform 0.3s ease;
+}
+
+.sobre-nos-content p {
+  margin-bottom: 1.5rem;
+  color: #4a5568;
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.sobre-nos-content h1 {
+  margin-bottom: 0.5rem;
+  color: #5271ff;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.sobre-nos-content h3 {
+  margin-bottom: 50px;
+  color: #4a599e;
+  font-weight: 700;
+  text-align: center;
+}
+
+.titulo-pagina {
+  color: #5271ff;
+  font-weight: 700;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.sobre-nos-content strong {
+  color: #4a599e;
+}
+
+footer {
+  background-color: #864e3f;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 12px;
+  box-sizing: content-box;
+}

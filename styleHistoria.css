@@ -1,0 +1,197 @@
+body {
+  font-family: "Comic sans", cursive, sans-serif;
+  background: linear-gradient(to top, #a5c6c9, rgb(255, 255, 255));
+  color: black;
+  padding: 0px;
+  margin: auto;
+  border-radius: 60px;
+  box-sizing: content-box;
+}
+
+header {
+  background: #864e3f;
+  padding: 1px;
+  box-sizing: content-box;
+  box-shadow: 0 4px 8px black;
+}
+
+.menu {
+  background: #380f00;
+  padding: 1px;
+  box-sizing: content-box;
+  border-radius: 5px;
+  margin: 20px auto;
+  width: 95%;
+  box-shadow: 0 4px 8px black;
+  font-style: italic;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  width: 75%;
+  margin: auto;
+  padding: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  border-radius: 1rem;
+  margin: auto;
+  padding: 1px;
+  box-sizing: content-box;
+  text-align: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  font-size: larger;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+  background-color: #532413;
+  border-radius: 4px;
+}
+
+.titulo-historia {
+  display: flex;
+  justify-content: center;
+  width: 900px;
+  height: auto;
+  margin: auto auto;
+  background-color: #a5c6c9;
+  box-shadow: 0 4px 8px #213352;
+  border-radius: 45px;
+  margin: 75px auto;
+}
+
+main {
+  padding: 2rem 1rem;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+section.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+section.intro p {
+  font-size: 1.125rem;
+  color: #4b5563;
+  text-align: justify;
+  max-width: 42rem;
+  margin: 0 auto
+}
+
+section p strong {
+  font-weight: 700;
+  color: #2f8c9e;
+}
+
+section.introducao-cordel,
+section.origem-europa,
+section.origem-brasil,
+section.legado {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px #213352,
+    0 2px 4px -2px #213352;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+section h2 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  text-align: center;
+  color: #1c4780; 
+  margin-bottom: 1.5rem;
+}
+
+section h3 {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #6660a0;
+  margin-bottom: 1rem; 
+  margin-top: 2rem;
+  text-align: left;
+}
+
+section p {
+  font-size: 1rem;
+  color: #4b5563;
+  margin-bottom: 1rem;
+  text-align: justify;
+}
+
+.texto-introducao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.texto-origem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ilustracao-origem {
+  width: 100%;
+  max-width: 18rem;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px #213352,
+    0 2px 4px -2px #213352; 
+  margin-bottom: 1.5rem;
+}
+
+.texto-leandro,
+.texto-athayde {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  margin-top: 2rem; 
+  padding: 1.5rem;
+  background-color: #f9fafb;
+  border-radius: 0.75rem; 
+  box-shadow: 0 1px 3px 0 #213352, 0 1px 2px 0 #213352;
+}
+
+.fotografia-leandro,
+.ilustracao-leandro,
+.ilustracao-athayde {
+  gap: 2rem;
+  width: 100%;
+  max-width: 12rem;
+  height: auto;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 6px -1px #213352,
+  0 2px 4px -2px #213352;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #864e3f;
+  color: white;
+  text-align: center;
+  padding: 1px;
+  position: flex;
+  bottom: 0;
+  width: 100%;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 12px;
+  box-sizing: content-box;
+}
